@@ -8,9 +8,8 @@ using System.Threading.Tasks;
 
 namespace API.Controllers
 {
-    [Route("[controller]")]
-    [ApiController]
-    public class DepartmentController : ControllerBase
+   
+    public class DepartmentController : MainApiController
     {
         [HttpGet]
         public IActionResult GetAll()
